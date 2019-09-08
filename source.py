@@ -1,6 +1,5 @@
 """Using tensorflow 1.0   gym 0.14"""
 import tensorflow as tf
-
 import numpy as np
 import gym
 import time
@@ -9,11 +8,11 @@ MAX_EPISODES=200
 MAX_EP_STEPS=200
 LR_A=0.001
 LR_C=0.002
-GAMMA=0.9
+GAMMA=0.9            #学习率
 TAU=0.01
 MEMORY_CAPACITY=10000
 BATCH_SIZE=32
-RENDER=True
+RENDER=True   #是否图形渲染
 
 
 PENDER=False
